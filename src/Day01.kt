@@ -35,9 +35,9 @@ fun main() {
     val testInput = readInput("Day01_test").map { it.toInt() }
     val input = readInput("Day01").map { it.toInt() }
 
-    check(part1(testInput), 7)
+    checkEqual(7, part1(testInput))
     println("PART 1: ${part1(input)}")
 
-    check(part2(testInput), 5)
+    checkEqual(5, part2(testInput))
     println("PART 2: ${part2(input)}")
 }
